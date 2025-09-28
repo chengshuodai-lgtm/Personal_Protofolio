@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chengshuo Dai - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Chengshuo Dai's Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Chengshuo</span></h1>
+                <p class="hero-subtitle">Biostat DS Student at Yale University</p>
+                <p class="hero-description">
+                    Passionate about creating innovative solutions and learning new technologies. 
+                    Currently pursuing my degree while gaining hands-on experience through internships and personal projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="/Users/apple/Desktop/dcs.jpg" alt="Chengshuo Dai" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated computer science student with a passion for problem-solving and innovation. 
+                        My journey in technology began with curiosity about how things work, and it has evolved into 
+                        a deep interest in software development, data structures, and algorithms.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                        projects, or working on personal side projects that challenge my skills and expand my knowledge.
+                    </p>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Master of Science in Biostatistics & Data Science</h3>
+                        <h4>Yale University</h4>
+                        <p class="timeline-date">2024 - 2026</p>
+                        <p class="timeline-description">
+                            Advanced coursework in statistical methods, machine learning, data analysis, 
+                            and computational biology. Research focus on NLP and knowledge graphs in genomics.
+                        </p>
+                        <div class="achievements">
+                            <span class="achievement">Gerstein Lab Research</span>
+                            <span class="achievement">NLP & Genomics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Management in Information Management and Information System</h3>
+                        <h4>Capital University of Economics and Business</h4>
+                        <p class="timeline-date">Sep. 2021 - Jun. 2025</p>
+                        <p class="timeline-description">
+                            Comprehensive coursework in Java, Python, Database Systems, Web Design, and System Design. 
+                            Strong foundation in information systems, data management, and software development.
+                        </p>
+                        <div class="achievements">
+                            <span class="achievement">Academic Excellence Scholarship (2022-2023, 2023-2024)</span>
+                            <span class="achievement">Merit Student (2022-2023, 2023-2024)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Quantitative Analyst Intern</h3>
+                        <h4>Huatai Securities</h4>
+                        <p class="experience-date">Mar. 2024 - Aug. 2024</p>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Utilized Python libraries like Pandas-DataReader and yfinance for data collection and preprocessing of financial data</li>
+                            <li>Enhanced model inputs by conducting feature engineering, optimizing technical indicators like Moving Averages, RSI, and Williams %R for stock price predictions</li>
+                            <li>Applied Gradient Boosting Regression and PCA for accurate stock forecasting; performed backtesting to ensure model robustness</li>
+                            <li>Collaborated on tuning hyperparameters to optimize algorithms and improve trading strategy efficiency</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">yfinance</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>ESG Consulting Assistant</h3>
+                        <h4>PwC Business Consulting</h4>
+                        <p class="experience-date">Oct. 2023 - Feb. 2024</p>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Analyzed environmental policies and NEV regulations to identify macroeconomic trends, utilizing data from over 30 policy documents</li>
+                            <li>Conducted SWOT analysis to evaluate the NEV industry landscape, assessing market conditions and risk management strategies</li>
+                            <li>Used Excel for data organization and quantitative analysis of market size, growth rates, and KPIs</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">SWOT Analysis</span>
+                            <span class="tech-tag">Policy Research</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Data Analysis Intern</h3>
+                        <h4>Headway Marketing</h4>
+                        <p class="experience-date">Jul. 2023 - Sep. 2023</p>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Developed and managed an AWS WeChat mini-program, using Python and Excel for data wrangling and analysis of customer behavior and service usage</li>
+                            <li>Created automated dashboards with Matplotlib and Seaborn, and conducted regular data updates and analyses to produce statistical reports for strategic decision-making</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Product Modeling Intern</h3>
+                        <h4>Zhidi HuiRong Technology Development</h4>
+                        <p class="experience-date">Jul. 2022 - Aug. 2022</p>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Led a team to collect product data from various e-commerce platforms and physical retail stores, utilizing Python and Excel for data extraction, statistical analysis, and classification</li>
+                            <li>Employed SQL and data cleaning techniques to categorize and structure large datasets for integration into company's inventory management system</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Data Cleaning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Yale University Gerstein Lab Research</h3>
+                        <p>
+                            Designed and implemented an end-to-end NLP and knowledge graph (KG) pipeline to model complex relationships between genes, biological functions (GO terms), and diseases, with applications in mechanism discovery and hypothesis generation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Knowledge Graph</span>
+                            <span class="tech-tag">BioGPT</span>
+                            <span class="tech-tag">Neo4j</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-university"></i> Yale Lab
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Research Paper
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>City Housing Price Analysis System</h3>
+                        <p>
+                            Built and automated a housing price analysis and prediction website with Python, Flask, and SQL for data management. Designed an interactive user interface with HTML, CSS, JavaScript, and ECharts for enhanced visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">ECharts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Python Learning Platform Development</h3>
+                        <p>
+                            Developed and launched an educational website for Python programming, focusing on accessibility for English-speaking beginners. Implemented a backend database with WampServer and phpMyAdmin to manage user data and monitor learning progress.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">WampServer</span>
+                            <span class="tech-tag">phpMyAdmin</span>
+                            <span class="tech-tag">Educational Tech</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Platform
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Feel free to reach out if you'd like to collaborate or just want to chat!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>Chengshuo2003723@163.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (203) 687-2350</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New Haven, Connecticut</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Chengshuo Dai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
